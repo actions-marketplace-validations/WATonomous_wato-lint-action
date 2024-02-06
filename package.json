@@ -1,8 +1,8 @@
 {
-	"name": "lint-action",
-	"version": "2.3.0",
-	"description": "GitHub Action for detecting and fixing linting errors",
-	"repository": "github:wearerequired/lint-action",
+	"name": "wato-lint-action",
+	"version": "1.0.0",
+	"description": "WATonomous GitHub Action for detecting and fixing linting errors",
+	"repository": "github:WATonomous/wato-lint-action",
 	"license": "MIT",
 	"private": true,
 	"main": "./dist/index.js",
