@@ -1,4 +1,6 @@
-# ✨ Lint Action
+# ✨ WATO Lint Action
+Forked from https://github.com/wearerequired/lint-action
+. WATonomous linter for internal use and CI. Can also be used for general public projects.
 
 - **Shows linting errors** on GitHub commits and PRs
 - Allows **auto-fixing** issues
