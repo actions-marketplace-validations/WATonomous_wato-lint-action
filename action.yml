@@ -1,6 +1,6 @@
 name: WATonomous Lint Action
 author: Eddy Zhou
-description: GitHub Action for detecting and fixing linting errors
+description: WATonomous GitHub Action for detecting and fixing linting errors
 
 inputs:
   github_token:
