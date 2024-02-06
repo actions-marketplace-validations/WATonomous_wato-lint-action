@@ -97,7 +97,7 @@ jobs:
       # Install your linters here
 
       - name: Run linters
-        uses: wearerequired/lint-action@v2
+        uses: WATonomous/wato-lint-action@v1@v1
         with:
           # Enable your linters here
 ```
@@ -142,7 +142,7 @@ jobs:
         run: npm ci
 
       - name: Run linters
-        uses: wearerequired/lint-action@v2
+        uses: WATonomous/wato-lint-action@v1
         with:
           eslint: true
           prettier: true
@@ -182,7 +182,7 @@ jobs:
           tools: phpcs
 
       - name: Run linters
-        uses: wearerequired/lint-action@v2
+        uses: WATonomous/wato-lint-action@v1
         with:
           php_codesniffer: true
           # Optional: Ignore warnings
@@ -226,7 +226,7 @@ jobs:
           echo "${PWD}/vendor/bin" >> $GITHUB_PATH
 
       - name: Run linters
-        uses: wearerequired/lint-action@v2
+        uses: WATonomous/wato-lint-action@v1
         with:
           php_codesniffer: true
 ```
@@ -264,7 +264,7 @@ jobs:
         run: pip install black flake8
 
       - name: Run linters
-        uses: wearerequired/lint-action@v2
+        uses: WATonomous/wato-lint-action@v1
         with:
           black: true
           flake8: true
@@ -298,7 +298,7 @@ jobs:
         run: sudo apt-get install -y clang-format
 
       - name: Run linters
-        uses: wearerequired/lint-action@v2
+        uses: WATonomous/wato-lint-action@v1
         with:
           clang_format: true
 ```
@@ -333,7 +333,7 @@ jobs:
           dotnet-version: "6.0.x"
 
       - name: Run linters
-        uses: wearerequired/lint-action@v2
+        uses: WATonomous/wato-lint-action@v1
         with:
           dotnet_format: true
 ```
@@ -371,7 +371,7 @@ jobs:
         run: pip install black flake8
 
       - name: Run linters
-        uses: wearerequired/lint-action@v2
+        uses: WATonomous/wato-lint-action@v1
         with:
           auto_fix: true
           black: true
