@@ -97,7 +97,7 @@ jobs:
       # Install your linters here
 
       - name: Run linters
-        uses: WATonomous/wato-lint-action@v1@v1
+        uses: WATonomous/wato-lint-action@v1
         with:
           # Enable your linters here
 ```
